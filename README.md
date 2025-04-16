@@ -25,7 +25,7 @@ codefinity.com
 
 Steps
 Clone the Repository:
-git clone https://github.com/yourusername/anomaly-detection.git
+git clone https://github.com/OMowen-s/time-series-anomaly-detection.git
 cd anomaly-detection
 Create a Virtual Environment (Optional but Recommended):
 python -m venv venv
@@ -47,16 +47,16 @@ Example
 python detect_anomalies.py --input data/temperature.csv --output reports/
 This command will process temperature.csv, detect anomalies, and save the results in the reports/ directory.​
 
-📄 Report Outputs
+📄 Report Outputs(only for examples)
 After running the detection script, the following files will be generated in the specified output directory:
 
-validation_report.csv: Lists all detected anomalies with timestamps and values.
+validation_report.csv(only for examples): Lists all detected anomalies with timestamps and values.
 
-anomaly_positions.csv: Provides the indices and corresponding values of anomalies.
+anomaly_positions.csv(only for examples): Provides the indices and corresponding values of anomalies.
 
-cleaned_data.csv: Contains the original data with anomalies removed or corrected.
+cleaned_data.csv(only for examples): Contains the original data with anomalies removed or corrected.
 
-anomaly_plot.png: A plot visualizing the time series data with anomalies highlighted.​
+anomaly_plot.png(only for examples): A plot visualizing the time series data with anomalies highlighted.​
 
 📊 Visualization
 The system generates a plot (anomaly_plot.png) that visualizes the time series data with anomalies marked. Anomalies are highlighted in red, and the plot includes dashed lines indicating the upper and lower bounds based on the IQR method.​
