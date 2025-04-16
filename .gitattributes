@@ -1,0 +1,13 @@
+* text=auto eol=lf
+
+*.py text diff=python
+
+*.md text
+*.txt text
+*.html text
+
+*.svg filter=lfs diff=lfs merge=lfs -text
+*.pdf filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
+
+**/config/*.yml merge=ours
