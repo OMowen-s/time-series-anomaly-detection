@@ -378,7 +378,7 @@ def generate_all_vector_scatter_full_after_th():
             plt.title(f"{csv_file.stem} - {col} scatter diagram（ {len(values)}points at total）", fontsize=16)
             plt.legend(fontsize=12)
             plt.grid(True, linestyle="--", linewidth=0.5)
-            plt.tight_layout(
+            plt.tight_layout()
             output_svg = Path.home() / "your" /'path'/ f"{csv_file.stem}_{col}_scatter.svg"
             plt.savefig(output_svg, format="svg", dpi=300)
             plt.close()  
