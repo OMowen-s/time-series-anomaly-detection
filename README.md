@@ -1,4 +1,4 @@
-#Time Series Anomaly Detection System
+Time Series Anomaly Detection System
 
 
 📌 Project Overview
