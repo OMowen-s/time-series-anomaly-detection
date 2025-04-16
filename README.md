@@ -1,4 +1,6 @@
 #Time Series Anomaly Detection System
+
+
 📌 Project Overview
 This project implements a robust anomaly detection system for time series data using the Interquartile Range (IQR) method. It automates the detection of outliers, generates detailed validation and anomaly reports, cleans the data, and visualizes anomalies with annotated plots.
 
